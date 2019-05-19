@@ -1,0 +1,32 @@
+===========================================================================================================
+Project:
+Clone the Initab Landing Page
+Requirements:
+Use HTML, CSS, and JavaScript to create a web page clone of the Initab Chrome Extension. You should create a web page that matches the format of this extensions display. You do NOT need to implement a Chrome Extension. Your web page should:
+
+You are not required to implement API's to obtain live data from Reddit, GitHub, or browser history.
+Use mocked text to fill in each of the components on the page, such as the Reddit news feed and the GITHUB ISSUE HISTORY sections. 
+The date and time in the center of the page should be correct for the users local time zone and should automatically refresh when the minute and the day advances.
+Buttons at the bottom of Navigation bar on the left side of the page should be clickable.
+Implement every other section of the page except the advertisement panel in the lower right hand corner of the page.
+Create your own solution without looking at the page source for the site you are cloning.
+Key Concepts to Learn:
+HTML/CSS layout
+Using JavaScript to manipulate the DOM and event system
+
+==========================================================================================================
+Plan of attack
+1. Technologies to be used:
+    HTML: Ofcourse.
+    CSS: For the overall layouts, text e.t.c.
+    CSS Flexbox: for aligning items within a box.
+2. Download the project image. Download normalize css. Add starter files needed.(index.html, main.css)
+3. Add the html basic template.
+4. Add normalize css.
+5. Add the basic structure.
+6. Add dummy text.
+7. Create the components in seperate files.
+8. Add the component code into the actual page.
+9. Add the breaking points.
+10. Testing and debugging. 
+
