@@ -1,4 +1,20 @@
 .full-page {
     width: 100%;
     background-color: #282936;
+    display: flex;
+    color:#eee;
+}
+.nav-panel {
+    max-width: 150px;
+    flex:0 0 auto;
+    background-color: #44475a;
+}
+.reddit-panel {
+    flex:1;
+}
+.main-panel {
+    flex:2;
+}
+.github-panel {
+    flex:1;
 }
