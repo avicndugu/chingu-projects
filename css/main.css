@@ -18,3 +18,40 @@
 .github-panel {
     flex:1;
 }
+
+
+
+/********GITHUB PANEL STYLING****************/
+.github-panel {
+    padding:30px 10px;
+}
+.panel-heading {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.tag-line {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+}
+.tab-heading {
+    font-size: 0.8em;
+    margin:0px 5px;
+    text-align: center;
+}
+
+.item-heading {
+    font-size: 0.8em;
+}
+
+.item-subheading {
+    font-size: 0.8em;
+}
+.item-text {
+    font-size: 0.8em;
+}
