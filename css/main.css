@@ -73,5 +73,15 @@
     font-size: 0.8em;
     padding:0px 10px;   
 }
+/********END OF REDDIT PANEL STYLING****************/
+/********SIDE NAV PANEL STYLING****************/
+.nav-panel{
+    padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.social-links {
+    text-align: center;
+}
 
-.reddit-panel
