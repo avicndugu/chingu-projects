@@ -109,3 +109,22 @@
 }
 
 
+
+/*********MAIN PANEL*******************/
+.main-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:30px 10px;
+}
+
+
+
+.history-feed-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.time-feed {
+    text-align: center;
+}
