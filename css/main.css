@@ -1,0 +1,130 @@
+.full-page {
+    width: 100%;
+    background-color: #282936;
+    display: flex;
+    color:#eee;
+}
+.nav-panel {
+    max-width: 150px;
+    flex:0 0 auto;
+    background-color: #44475a;
+}
+.reddit-panel {
+    flex:1;
+}
+.main-panel {
+    flex:2;
+}
+.github-panel {
+    flex:1;
+}
+
+
+
+/********GITHUB PANEL STYLING****************/
+.github-panel {
+    padding:30px 10px;
+}
+.panel-heading {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.tag-line {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    padding:15px;    
+}
+.tab-heading {
+    font-size: 0.8em;
+    margin:0px 5px;
+    text-align: center;
+}
+
+.item {
+    margin-bottom:40px;
+    border-left: 2px solid;
+}
+.item-heading {
+    font-size: 0.8em;
+    padding:0px 10px;
+}
+
+.item-subheading {
+    font-size: 0.8em;
+    padding:0px 10px;
+}
+.item-text {
+    font-size: 0.8em;
+    padding:0px 10px;
+}
+/********END OF GITHUB PANEL STYLING****************/
+
+/********REDDIT PANEL STYLING****************/
+.reddit-panel {
+    padding:30px 10px;
+}
+.reddit-link {
+    font-size: 0.8em;
+    padding:0px 10px;   
+}
+/********END OF REDDIT PANEL STYLING****************/
+/********SIDE NAV PANEL STYLING****************/
+.nav-panel{
+    padding:0 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100vh;
+}
+
+.nav-container ul {
+    margin-top: 20px;
+    list-style-type: none;
+    padding:0;
+    font-size: 0.8em;
+}
+
+.nav-container ul li {
+    margin-bottom: 20px;
+}
+
+.nav-container img{
+    width:90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-links {
+    text-align: center;
+    padding:10px 0px;
+    display:flex;
+    justify-content: space-around;
+    font-size: 21px;
+}
+
+
+
+/*********MAIN PANEL*******************/
+.main-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:30px 10px;
+}
+
+
+
+.history-feed-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.time-feed {
+    text-align: center;
+}
