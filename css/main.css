@@ -35,7 +35,7 @@ html,
     overflow: hidden;
     flex: 1;
 }
-.nav-panel, .reddit-panel, .main-panel, .github-panel {
+.nav-panel, .reddit-panel, .github-panel {
     padding: 20px;
     /*flex: 1;*/
     overflow: auto;
@@ -138,10 +138,12 @@ html,
     flex-direction: column;
     justify-content: space-between;
     padding:30px 10px;
+    /*font-size: 12px;*/
 }
 
-
-
+.history-feed {
+    overflow-y: scroll;
+}
 .history-feed-item {
     display: flex;
     justify-content: space-around;
@@ -149,4 +151,11 @@ html,
 
 .time-feed {
     text-align: center;
+}
+
+/*********HIDE SCROLL BARS************/
+.reddit-panel::-webkit-scrollbar, .history-feed::-webkit-scrollbar {
+    /*Removes scroll bar for Chrome*/
+    width: 0 !important;
+
 }
