@@ -49,3 +49,6 @@ function updateClock() {
 updateClock();
 // Udating every 1.1 seconds
 setInterval(updateClock,1100);
+
+////////////////COLORS LISTED ///////////////////////
+var colors = ["#8be9fc","#74f27c","#f7b76b","#ed76c5","#bd93f9","#f8f8f2","#e6db74"];

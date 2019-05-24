@@ -19,20 +19,44 @@
     flex:1;
 }
 
+/****************SEPERATE SCROLLING OF EACH SEGMENT ENABLED************************/
+body,
+html,
+.full-page {
+    height: 100%;
+    max-height: 100%;
+}
+.full-page {
+    display: flex;
+    flex-direction: column;
+}
+.all-content {
+    display: flex;
+    overflow: hidden;
+    flex: 1;
+}
+.nav-panel, .reddit-panel, .github-panel {
+    padding: 20px;
+    /*flex: 1;*/
+    overflow: auto;
+}
 
+/****************END OF SEPERATE SCROLLING OF EACH SEGMENT ENABLED************************/
 
 /********GITHUB PANEL STYLING****************/
 .github-panel {
     padding:30px 10px;
 }
 .panel-heading {
-    font-size: 0.9em;
+    font-size: 14px;
     text-align: center;
+    color:#89e6f9;
 }
 
 .tag-line {
     font-size: 0.8em;
     text-align: center;
+    color:#6272a4;
 }
 
 .tab {
@@ -40,6 +64,15 @@
     justify-content: center;
     padding:15px;    
 }
+
+.tab p:nth-child(1) {
+    color:#e6db74;    
+}
+
+.tab p:nth-child(2) {
+    color:#ed76c5;    
+}
+
 .tab-heading {
     font-size: 0.8em;
     margin:0px 5px;
@@ -50,9 +83,18 @@
     margin-bottom:40px;
     border-left: 2px solid;
 }
+
 .item-heading {
     font-size: 0.8em;
     padding:0px 10px;
+}
+
+.github-panel .item-heading {
+    color:#6272a4;
+}
+
+.github-panel .item-subheading{
+    color:#e6db74;
 }
 
 .item-subheading {
@@ -62,6 +104,7 @@
 .item-text {
     font-size: 0.8em;
     padding:0px 10px;
+    color:#f8f8f2;
 }
 /********END OF GITHUB PANEL STYLING****************/
 
@@ -69,10 +112,12 @@
 .reddit-panel {
     padding:30px 10px;
 }
-.reddit-link {
+.reddit-panel a {
     font-size: 0.8em;
-    padding:0px 10px;   
+    padding:0px 10px;
+    color:#ed76c5;
 }
+
 /********END OF REDDIT PANEL STYLING****************/
 /********SIDE NAV PANEL STYLING****************/
 .nav-panel{
@@ -108,6 +153,33 @@
     font-size: 21px;
 }
 
+#main-nav li:nth-child(1) {
+    color: #8be9fc;
+}
+
+#main-nav li:nth-child(2) {
+    color: #74f27c;
+}
+
+#main-nav li:nth-child(3) {
+    color: #f7b76b;
+}
+
+#main-nav li:nth-child(4) {
+    color: #ed76c5;
+}
+
+#main-nav li:nth-child(5) {
+    color: #bd93f9;
+}
+
+#main-nav li:nth-child(6) {
+    color: #f8f8f2;
+}
+
+#main-nav li:nth-child(7) {
+    color: #e6db74;
+}
 
 
 /*********MAIN PANEL*******************/
@@ -116,15 +188,50 @@
     flex-direction: column;
     justify-content: space-between;
     padding:30px 10px;
+    font-size: 0.8em;
 }
 
-
-
+.history-feed {
+    overflow-y: scroll;
+}
 .history-feed-item {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.history-feed-item-a a {
+    text-decoration: none;
+    color:#6272a4;
+    padding-right: 10px;
+}
+.history-feed-item-b {
+    min-width:80px;
 }
 
 .time-feed {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    color:#6272a4;
+}
+
+#time {
+    font-size: 8em;
+    padding:0px;
+    margin:40px 0 0 0;
+}
+#am-pm {
+    font-size: 0.3em;
+}
+#date {
+    margin-top:0;
+    font-size: 1.5em;
+}
+
+/*********HIDE SCROLL BARS************/
+.reddit-panel::-webkit-scrollbar, .history-feed::-webkit-scrollbar {
+    /*Removes scroll bar for Chrome*/
+    width: 0 !important;
+
 }
