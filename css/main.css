@@ -48,8 +48,9 @@ html,
     padding:30px 10px;
 }
 .panel-heading {
-    font-size: 0.9em;
+    font-size: 14px;
     text-align: center;
+    color:#89e6f9;
 }
 
 .tag-line {
@@ -138,7 +139,7 @@ html,
     flex-direction: column;
     justify-content: space-between;
     padding:30px 10px;
-    /*font-size: 12px;*/
+    font-size: 0.8em;
 }
 
 .history-feed {
@@ -146,11 +147,27 @@ html,
 }
 .history-feed-item {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .time-feed {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+#time {
+    font-size: 8em;
+    padding:0px;
+    margin:40px 0 0 0;
+}
+#am-pm {
+    font-size: 0.3em;
+}
+#date {
+    margin-top:0;
+    font-size: 1.5em;
 }
 
 /*********HIDE SCROLL BARS************/
