@@ -202,6 +202,10 @@ html,
 .history-feed-item-a a {
     text-decoration: none;
     color:#6272a4;
+    padding-right: 10px;
+}
+.history-feed-item-b {
+    min-width:80px;
 }
 
 .time-feed {
