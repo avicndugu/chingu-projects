@@ -33,6 +33,12 @@ function updateClock() {
     if (hour>12){
         hour=hour-12;
     }
+    else if (hour==0){
+        hour=12;  
+    }
+    else {
+        hour=hour;
+    }
 
     // Adds a zero if minutes are below 10
     if (minute<10){
