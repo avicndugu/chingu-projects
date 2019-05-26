@@ -124,15 +124,16 @@ html,
 }
 
 .reddit-panel .item-subheading {
-    
+    color:#8be9fc;
 }
 .reddit-panel .item-subheading span {
-
+    color: #e6db74;
 }
 
 .reddit-link {
     color:#ed76c5;    
     text-decoration: underline;
+    padding-left:10px;
 }
 
 
