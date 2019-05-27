@@ -83,14 +83,18 @@ html,
 .tab {
     display: flex;
     justify-content: center;
-    padding:15px;    
+    padding:15px;
 }
 
-.tab p:nth-child(1) {
+.tab a {
+    text-decoration: none;
+
+}
+.tab a:nth-child(1) {
     color:#e6db74;    
 }
 
-.tab p:nth-child(2) {
+.tab a:nth-child(2) {
     color:#ed76c5;    
 }
 
