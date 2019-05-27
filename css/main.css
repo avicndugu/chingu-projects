@@ -110,11 +110,13 @@ html,
 
 .item {
     margin-bottom:40px;
-    border-left: 2px solid;
+    border-left: 2px solid #44475a;
+}
+.item:hover {
+    border-color: #74f27c;
 }
 
 .item-heading {
-    /*font-size: 0.8em;*/
     padding:0px 10px;
 }
 
@@ -341,6 +343,7 @@ html,
     flex-direction: column;
     padding-bottom: 20px;
     color:#6272a4;
+    border-top: solid 1px #44475a;
 }
 
 #time {
