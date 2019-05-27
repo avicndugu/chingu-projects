@@ -97,6 +97,10 @@ html,
     color:#ed76c5;    
 }
 
+.tab a:nth-child(2):hover {
+    color: #74f27c;  
+}
+
 .tab-heading {
     font-weight:300;
     font-size: 12.5px;
@@ -106,11 +110,13 @@ html,
 
 .item {
     margin-bottom:40px;
-    border-left: 2px solid;
+    border-left: 2px solid #44475a;
+}
+.item:hover {
+    border-color: #74f27c;
 }
 
 .item-heading {
-    /*font-size: 0.8em;*/
     padding:0px 10px;
 }
 
@@ -120,6 +126,10 @@ html,
 
 .github-panel .item-subheading{
     color:#e6db74;
+}
+
+.github-panel .pull-request-item .item-subheading{
+    color:#ed76c5;
 }
 
 .item-subheading {
@@ -277,8 +287,13 @@ html,
     background-color: #bd93f9;
 }
 
-#main-nav li:nth-child(6) i {
+#main-nav li:nth-child(6) i:nth-child(1) {
     background-color: #f8f8f2;
+}
+
+/*Lock padlock*/
+#main-nav li:nth-child(6) i:nth-child(2) {
+    color: #f8f8f2;
 }
 
 #main-nav li:nth-child(7) i {
@@ -303,6 +318,10 @@ html,
     justify-content: space-between;
 }
 
+.history-feed-item-a a:hover {
+    color:#e6db74;
+}
+
 .history-feed-item-a a {
     text-decoration: none;
     color:#6272a4;
@@ -324,6 +343,7 @@ html,
     flex-direction: column;
     padding-bottom: 20px;
     color:#6272a4;
+    border-top: solid 1px #44475a;
 }
 
 #time {
@@ -339,6 +359,20 @@ html,
     font-size: 1.5em;
 }
 
+#notification a {
+    text-decoration: none;
+    color:#f7b76b;
+}
+
+#notification i {
+    font-size: 10px;
+    padding: 1px 3px;
+    background-color: #f7b76b;
+    color:#282936;
+    border-radius: 50%;
+
+}
+
 /*********HIDE SCROLL BARS************/
 .reddit-panel::-webkit-scrollbar, .history-feed::-webkit-scrollbar {
     /*Removes scroll bar for Chrome*/
@@ -350,4 +384,11 @@ html,
 /*Item container link*/
 .item-link {
     text-decoration: none;
+}
+
+
+
+/************TAB CODE: Switching between pull requests and issues github tab ***************/
+.pull-request-item {
+    display: none;
 }
