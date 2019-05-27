@@ -97,6 +97,10 @@ html,
     color:#ed76c5;    
 }
 
+.tab a:nth-child(2):hover {
+    color: #74f27c;  
+}
+
 .tab-heading {
     font-weight:300;
     font-size: 12.5px;
@@ -120,6 +124,10 @@ html,
 
 .github-panel .item-subheading{
     color:#e6db74;
+}
+
+.github-panel .pull-request-item .item-subheading{
+    color:#ed76c5;
 }
 
 .item-subheading {
