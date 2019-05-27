@@ -285,8 +285,13 @@ html,
     background-color: #bd93f9;
 }
 
-#main-nav li:nth-child(6) i {
+#main-nav li:nth-child(6) i:nth-child(1) {
     background-color: #f8f8f2;
+}
+
+/*Lock padlock*/
+#main-nav li:nth-child(6) i:nth-child(2) {
+    color: #f8f8f2;
 }
 
 #main-nav li:nth-child(7) i {
@@ -309,6 +314,10 @@ html,
 .history-feed-item {
     display: flex;
     justify-content: space-between;
+}
+
+.history-feed-item-a a:hover {
+    color:#e6db74;
 }
 
 .history-feed-item-a a {
@@ -352,7 +361,7 @@ html,
     color:#f7b76b;
 }
 
-#notification a i {
+#notification i {
     font-size: 10px;
     padding: 1px 3px;
     background-color: #f7b76b;
