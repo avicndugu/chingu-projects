@@ -33,7 +33,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14.5px;
     font-weight:100;
 }
-
+i {
+    font-size: 16px;
+    /*background-color: red;*/
+    padding:5px;
+    border-radius: 3px;
+}
 /****************SEPERATE SCROLLING OF EACH SEGMENT ENABLED************************/
 body,
 html,
@@ -191,6 +196,32 @@ html,
     font-size: 21px;
 }
 
+.social-links i {
+    background-color: green;
+    border-radius:50%;
+}
+
+.social-links i:nth-child(1){
+    background-color:#3b5997;
+    padding:5px 8px;
+}
+
+.social-links i:nth-child(2){
+    background-color:#2b80b1;
+    padding:5px 6px;
+}
+.social-links i:nth-child(3){
+    background-color:#3daced;
+    padding:5px 6px;
+}
+.social-links i:nth-child(4){
+    background-color:#5f99ce;
+    padding:5px 6px;
+}
+
+
+
+
 #main-nav li:nth-child(1) a {
     color: #8be9fc;
 }
@@ -219,6 +250,38 @@ html,
     color: #e6db74;
 }
 
+#main-nav li i {
+    color:#44475a;
+}
+
+#main-nav li:nth-child(1) i {
+    background-color: #8be9fc;
+}
+
+#main-nav li:nth-child(2) i {
+    background-color: #74f27c;
+}
+
+#main-nav li:nth-child(3) i {
+    background-color: #f7b76b;
+}
+
+#main-nav li:nth-child(4) i {
+    background-color: #ed76c5;
+}
+
+#main-nav li:nth-child(5) i {
+    background-color: #bd93f9;
+}
+
+#main-nav li:nth-child(6) i {
+    background-color: #f8f8f2;
+}
+
+#main-nav li:nth-child(7) i {
+    background-color: #e6db74;
+}
+
 
 /*********MAIN PANEL*******************/
 .main-panel {
@@ -241,6 +304,12 @@ html,
     text-decoration: none;
     color:#6272a4;
     padding-right: 10px;
+}
+
+.history-feed-item i {
+    color:#44475a;
+    background-color: #f8f8f8;
+
 }
 .history-feed-item-b {
     min-width:80px;
