@@ -351,3 +351,10 @@ html,
 .item-link {
     text-decoration: none;
 }
+
+
+
+/************TAB CODE: Switching between pull requests and issues github tab ***************/
+.pull-request-item {
+    display: none;
+}
