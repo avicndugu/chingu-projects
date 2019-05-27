@@ -65,6 +65,7 @@ var colors = ["#8be9fc","#74f27c","#f7b76b","#ed76c5","#bd93f9","#f8f8f2","#e6db
 var pullReqItem= document.getElementsByClassName("pull-request-item");
 // console.log(pullReqItem);
 var issueItem= document.getElementsByClassName("issue-item");
+var notification=document.getElementById("notification");
 // console.log(issueItem);
 // console.log(pullReqItem.length);
 document.getElementById("pull-request").addEventListener("click", function (){
@@ -84,4 +85,10 @@ document.getElementById("issues").addEventListener("click", function (){
     for (m=0;m<issueItem.length;m++) {
         issueItem[m].style.display="block";
     }
+});
+
+
+// Hide notification under time
+document.getElementById("hide-notification").addEventListener("click",function(){
+    notification.style.display="none";
 });

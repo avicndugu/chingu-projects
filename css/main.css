@@ -347,6 +347,20 @@ html,
     font-size: 1.5em;
 }
 
+#notification a {
+    text-decoration: none;
+    color:#f7b76b;
+}
+
+#notification a i {
+    font-size: 10px;
+    padding: 1px 3px;
+    background-color: #f7b76b;
+    color:#282936;
+    border-radius: 50%;
+
+}
+
 /*********HIDE SCROLL BARS************/
 .reddit-panel::-webkit-scrollbar, .history-feed::-webkit-scrollbar {
     /*Removes scroll bar for Chrome*/
